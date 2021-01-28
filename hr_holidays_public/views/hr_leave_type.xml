@@ -12,7 +12,7 @@
         <field name="arch" type="xml">
             <xpath expr="//group[@name='visibility']" position="after">
                 <group name="public_holidays" string="Public Holidays">
-                    <field name="exclude_public_holidays"/>
+                    <field name="exclude_public_holidays" />
                 </group>
             </xpath>
         </field>
